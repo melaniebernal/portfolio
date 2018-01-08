@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.container {
+  display: inline;
+  color: #000;
+  text-align: center;
+}
+    
+.centered {
+	text-align: centered;
+}
+
+.mt {
+	margin-top: 30px;
+}
+
+.mb {
+	margin-bottom: 80px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ h2, h3, h4, h5, h6 {
+	font-weight: 700;
+    color: #4a4a4a;
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+.button {
+  font-size: 16px;
+  color: pink;
+  border: 2px solid #fff;
+  box-shadow: 4px 4px 0 0; 
+}
+
+#headerwrap {
+	background-color: #2f2f2f;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align: center;
+	width: 100%;
+
+}
+
+#headerwrap h1 {
+	color: pink;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+  text-align: center;
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #ffffff;
+  text-align: center;
+}
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; }
+#nav li {
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; }
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; }
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 8%;
+}
+
+
+#social {
+	background-color: #f2f2f2;
+  display: inline;
+
+}
+
+#social i {
+	font-size: 40px;
+	color: #4a4a4a;
+}
+
+#social i:hover {
+	color: #1abc9c
+}
+
+#footerwrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
+}
+  
+  
+.card {
+	margin-top: 30px;
+  margin-bottom:30px;
+}
+ 
+  
+  .thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+
